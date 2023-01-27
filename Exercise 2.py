@@ -9,14 +9,15 @@ a = [1, 2, 3]
 b = [4, 5, 6]
 
 
-N = len(a)
 def dotproduct(a,b):
+    N = len(a)
+    Ncheck = len(b)
     dot = 0
     for i in range(N):
         dot += a[i]*b[i]
-    return dot 
-   
-print(dotproduct(a, b))    
+    return dot   
+print(dotproduct(a, b))   
+
+ 
 
 
-    
