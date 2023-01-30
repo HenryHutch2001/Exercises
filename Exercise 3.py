@@ -19,3 +19,12 @@ print(a[:-2])
 
 print(a[::2])
 "Prints every other element in the array"
+
+b = np.array([5, 4, 9, 2, 0, 4, 7, -9])
+
+print(b)
+
+b[0:3] = 1
+
+print(b)
+"Changes every element in the array from index 0-3 to a '1' "
