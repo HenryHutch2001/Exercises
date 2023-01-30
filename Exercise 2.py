@@ -18,6 +18,10 @@ def dotproduct(a,b):
     return dot   
 print(dotproduct(a, b))   
 
- 
+A = [[1,2,3],[4,5,6]]
+
+m1 = A[0]
+m2 = A[1]
+print(m1,m2)
 
 
