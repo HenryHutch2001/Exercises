@@ -9,13 +9,18 @@ import numpy as np
 import matplotlib.pyplot as plt
 import random
 
-r = np.array([])
 
-for i in range(20):
-    num = np.random.normal(1,9)
-    r = np.append(r,num)
+
+r = np.random.normal(5,3,20)
+
     
-print(r)
+
+
+idx = r < 5
+print(idx)
+"Displays a boolean output for each entry in the array explaining whether the entry is less than 5, if true we print 'true', else print 'false'"
+
+r[idx] = 0
 
 
 
