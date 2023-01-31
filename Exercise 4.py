@@ -13,7 +13,6 @@ import random
 
 r = np.random.normal(5,3,20)
 
-    
 
 
 idx = r < 5
