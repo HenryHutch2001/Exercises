@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import math 
 
 A = np.array([[1,-1],[2,4],[1,1],[3,8]])
-
+b = np.array([[2],[4],[6],[8]])
 
 
 
@@ -23,4 +23,13 @@ def psuedoinverse(A):
 
 
 I = np.matmul(psuedoinverse(A),A)
+Aplus = psuedoinverse(A)
+
 print(I)
+
+
+
+
+
+x = np.linalg.solve(Aplus,b)
+print(x)
